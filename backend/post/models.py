@@ -10,7 +10,7 @@ class Post(TimeStampWithUpdateMixin):
     hashtags = models.ManyToManyField('HashTag', blank=True, related_name='posts')
 
     def __str__(self):
-        return f"Post - {self.user.username} - {self.created_at}"
+        return f"Post - {self.user.username}"
     
     class Meta:
         ordering = ['-created_at']
