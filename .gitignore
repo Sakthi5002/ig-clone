@@ -1,7 +1,7 @@
 backend/venv/
-backend/__pycache__/
 backend/db.sqlite3
 backend/media/
+__pycache__/
 
 
 .DS_Store
